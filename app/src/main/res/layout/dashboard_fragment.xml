@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/dashboard_main_img"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="10dp"
+        android:background="#A7A2A2" />
+
+
+    <TextView
+        android:id="@+id/dashboard_txt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dashboard_main_img"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Scrolling Text lIne1, Scrolling Text"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/dashboard_txt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dashboard_txt1"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Scrolling Text lIne1, Scrolling Text"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+
+    <Button
+        android:id="@+id/btn_donation_dashboad"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/dashboard_txt2"
+        android:layout_marginTop="20dp"
+        android:text="Click Here To Make A Donation"
+        android:textStyle="bold" />
+
+</RelativeLayout>
